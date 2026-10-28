@@ -1,0 +1,38 @@
+# Maven and generated build output in every module
+**/target/
+**/build/
+*.class
+
+# IDE and editor metadata
+.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+**/.vscode/
+.classpath
+.project
+.settings/
+**/.settings/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+*.log
+logs/
+**/logs/
+
+# Legacy MongoDB files and local database storage
+/product-service/data/
+
+# Preserved Git metadata from the former standalone service repositories
+/.repo-backups/
+
+# Operating system files
+.DS_Store
+Thumbs.db
